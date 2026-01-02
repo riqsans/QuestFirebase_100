@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "172829115134",
+    "project_id": "questfirebase-bec7d",
+    "storage_bucket": "questfirebase-bec7d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172829115134:android:4cf79305362f96c5285baf",
+        "android_client_info": {
+          "package_name": "com.example.questfirebase_100"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF4V-ffMRClLQC0-btyAEHRLAQnOQ8j84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
