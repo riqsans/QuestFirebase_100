@@ -57,5 +57,10 @@ class FirebaseRepositorySiswa : RepositorySiswa {
         }
     }
 
+    override suspend fun updateSiswa(siswa: Siswa) {
+        // Di Firestore, set() dengan ID yang sama akan menimpa (update)
+        postDataSiswa(siswa)
+    }
+
     
 }
