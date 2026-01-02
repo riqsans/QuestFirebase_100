@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myfirebase"
+    namespace = "com.example.questfirebase_100"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.myfirebase"
+        applicationId = "com.example.questfirebase_100"
         minSdk = 27
         targetSdk = 35
         versionCode = 1
