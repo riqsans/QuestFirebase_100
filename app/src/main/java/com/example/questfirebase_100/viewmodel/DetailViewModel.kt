@@ -1,10 +1,11 @@
+@file:OptIn(InternalSerializationApi::class)
+
 package com.example.questfirebase_100.viewmodel
 
 import com.example.questfirebase_100.modeldata.Siswa
 import com.example.questfirebase_100.repositori.RepositorySiswa
 import com.example.questfirebase_100.view.route.DestinasiDetail
 
-@file:OptIn(InternalSerializationApi::class)
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
