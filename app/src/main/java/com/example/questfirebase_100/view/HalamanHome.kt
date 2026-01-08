@@ -135,3 +135,23 @@ fun ErrorScreen(retryAction: () -> Unit, modifier: Modifier = Modifier) {
     }
 }
 
+@Composable
+fun DaftarSiswa(
+    itemSiswa: List<Siswa>,
+    // edit 2.1 : tambahkan parameter onSiswaClick
+    onSiswaClick: (Siswa) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    LazyColumn(modifier = Modifier) {
+        items(items = itemSiswa, key = { it.id }) { person ->
+            ItemSiswa(
+                siswa = person,
+                modifier = Modifier
+                    .padding(dimensionResource(id = R.dimen.padding_small))
+                    // edit 2.2 jadikan itemsiswa menjadi clickable
+                    .clickable { onSiswaClick(person) }
+            )
+        }
+    }
+}
+
